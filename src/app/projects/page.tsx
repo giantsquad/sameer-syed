@@ -16,7 +16,7 @@ const ProjectsPage: React.FC = () => {
                 {/* Example Project Link */}
                 <Link href="https://www.kollej.app/" className="block p-6 border rounded-lg shadow-md hover:shadow-lg transition-shadow">
                     <h2 className="text-2xl font-semibold mb-2">Kollej</h2>
-                    <p className="text-gray-600">Your one app</p>
+                    <p className="text-pink-400">Your one app</p>
                     <span className="text-blue-500 hover:underline mt-2 inline-block">View Project &rarr;</span>
                 </Link>
 
