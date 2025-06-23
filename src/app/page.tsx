@@ -6,7 +6,7 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
-          src="/public/sameerSyedWebsiteLogos.svg"
+          src="/sameerSyedWebsiteLogos.svg"
           alt="Sameer Syed"
           width={180}
           height={38}
@@ -26,6 +26,21 @@ export default function Home() {
 
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+        <a
+            className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+            href="https://sameersyed.vercel.app/Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+          <Image
+              aria-hidden
+              src="/file.svg"
+              alt="File icon"
+              width={16}
+              height={16}
+          />
+          Resume
+        </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="https://github.com/giantsquad"
